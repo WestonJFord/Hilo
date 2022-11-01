@@ -11,7 +11,7 @@ namespace Hilo.Game
         {
             while (_isPlaying)
             {  
-                GetInputs();
+                GetInputs();asdjaosd    
                 DoUpdates();
                 DoOutputs();
             }
