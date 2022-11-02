@@ -1,0 +1,5 @@
+Program,Hilo,,
+Class,Program.cs,Director.cs,Dealer.cs
+Purpose,Runs game loop,"Directs the game, takes inputs and gives outputs","Creates a deck, holds it, and shuffles it."
+Functions,Main,"StartGame, GetInputs, DoUpdates, DoOutputs","NewDeck, Shuffle"
+Variables,,String PlayerInput,"Dictionary<int,string> deck"
