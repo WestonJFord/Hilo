@@ -5,17 +5,29 @@ namespace Hilo.Game
 {
     public class Dealer
     {
+        public List<int> deck;
+        public int card;
+        public Dealer()
+        {}
         public void NewDeck()
         {
-            Dictionary<int,string> deck = new Dictionary<int,string>();
+            List<int> deck = new List<int>();
 
-            for (int i = 1; i <= 13; i = i + 2)
+            for (int g = 0; g <= 3; g++)
             {
-                deck.Add(i,i.ToString());
+                for (int i = 1; i <= 13; i++)
+                {
+                    deck.Add(i);
 
-                    //Testing to verify the new deck is good:
-                    Console.WriteLine(deck);
+                        //Testing to verify the new deck is good:
+                        //Console.WriteLine(deck);
+                }
             }
+        }
+
+        public void DrawCard(int i, List<int> deck)
+        {
+            int card = deck[i];
         }
     }
 }
