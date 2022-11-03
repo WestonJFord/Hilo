@@ -27,5 +27,3 @@ namespace Hilo.Game
         {}
     }
 }
-
-//comment
